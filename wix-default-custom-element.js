@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
 class PDFEmbed extends HTMLElement {
 
@@ -7,7 +6,7 @@ class PDFEmbed extends HTMLElement {
 
         super();
 
-        this.divid = uuidv4();
+        this.divid = "abc";
 
         const wrapper = document.createElement('div');
         wrapper.id = this.divid;
