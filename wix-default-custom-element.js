@@ -12,9 +12,10 @@ class PDFEmbed extends HTMLElement {
         const wrapper = document.createElement('div');
         wrapper.id = this.divid;
 
-        if (this.hasAttribute('url')) this.url = this.getAttribute('url');
-        if (this.hasAttribute('key')) this.key = this.getAttribute('key');
-
+       // if (this.hasAttribute('url')) this.url = this.getAttribute('url');
+       // if (this.hasAttribute('key')) this.key = this.getAttribute('key');
+        this.url = "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"
+        this.key = "8f6410dac5ea4a9e82cc9b2034497501"
         if (this.hasAttribute('width')) this.width = this.getAttribute('width');
         else this.width = '500px';
 
